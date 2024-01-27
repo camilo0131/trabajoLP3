@@ -8,7 +8,7 @@ def calculadora():
     num2 = float (input("Ingrese el segundo número: "))  #se agrega un input
   #define el valor a la operacion a solicitar  
     operacion = (input("Ingrese la operación (+, -, *, /): "))
-
+   # bloque de condicionales cumpliendo una operacion
     if operacion == '+':
         resultado = num1 + num2  #se corrige variable num a num1
     elif operacion == '-':
@@ -22,5 +22,6 @@ def calculadora():
         resultado = "Operación no válida"
   # devuelve el resultado de la función
     return print(resultado) #se agrega un return
+  #se llama a la funcion
 calculadora() # se corrige palabra calculadora
  
